@@ -1,0 +1,11 @@
+# fte test script - 快速功能验证
+
+# 警告：除非你明确知道自己在做什么，否则不要将频谱图的任何一个像素的任何一个通道的值设置为FF或接近的颜色！
+
+load -i ./demo/demo.png
+
+t -x 960 -y 100 -s 50 -c #000000 -bg #888888 "demo"
+
+i -x 860 -y 80 -s 0.3 -a 0.5 demo/partten.png
+
+save -o ./demo/demo_out.png

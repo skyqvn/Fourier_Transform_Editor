@@ -1,0 +1,19 @@
+# 编译产物
+fte.exe
+fte
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 依赖
+vendor/
+
+# 临时文件
+*.tmp
+*.swp
+*~
